@@ -24,9 +24,7 @@ int main(){
         case 4: result = x / y;break;
         default:
             cout<<"\nPlease enter a valid value"<<"\n"; 
-            cout << "\nEnter a key for exit" <<"\n";
-            cin.get();
-            cin.get(); return 0; 
+            
     }
 
     cout << "\nYour result is: "<<result<<"\n";
